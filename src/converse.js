@@ -10,6 +10,7 @@
  */
 import "@converse/headless/headless";
 import "converse-registry";
+import "converse-rootview";
 import "converse-autocomplete";
 import "converse-bookmark-views";  // Views for XEP-0048 Bookmarks
 import "converse-chatview";        // Renders standalone chat boxes for single user chat
@@ -44,17 +45,18 @@ const WHITELISTED_PLUGINS = [
     'converse-controlbox',
     'converse-dragresize',
     'converse-fullscreen',
+    'converse-headlines-view',
     'converse-mam-views',
     'converse-minimize',
     'converse-modal',
     'converse-muc-views',
-    'converse-headlines-view',
     'converse-notification',
     'converse-omemo',
     'converse-profile',
     'converse-push',
     'converse-register',
     'converse-roomslist',
+    'converse-rootview',
     'converse-rosterview',
     'converse-singleton',
     'converse-uniview'
