@@ -61,3 +61,7 @@ node_modules
 # Builds
 .sv?
 /vendor/
+
+# exclude
+!src/headless/dist
+!src/headless/dist/*
